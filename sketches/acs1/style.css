@@ -2,13 +2,25 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1a1a1a;
+  background-color: #dfd4c7;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  color: #aa3725;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 canvas {
   display: block;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: 0 0 20px #832112ee;
 }
